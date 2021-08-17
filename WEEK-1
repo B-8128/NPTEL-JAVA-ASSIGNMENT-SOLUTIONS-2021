@@ -1,0 +1,99 @@
+//PROGRAMMING ASSIGNMENT----1
+//Calculate the perimeter 
+  //Calculate the area
+          double pi=Math.PI;
+          if(radius<=0)
+          {
+            System.out.print("please enter non zero positive number");
+          }
+           else
+           {
+             perimeter=2*pi*radius;
+             area=pi*radius*radius;
+             System.out.print(perimeter+"\n"+area);
+           }
+                                
+
+//PROGRAMMING ASSIGNMENT----2
+//Use if...else ladder to find the largest among 3 numbers and store the largest number in a variable called result.
+if(x>y)
+{
+  if(x>z)
+  {
+    result=x;
+  }
+  else 
+  {
+    result=z;
+  }
+}
+else
+{
+  if(y>z)
+  {
+    result=y;
+  }
+  else
+  {
+    result=z;
+  }
+}
+System.out.print(result);
+
+ 
+ //PROGRAMMING ASSIGNMENT----3
+ //Use for or while loop do the operation.
+          int num=0;
+           for( int i=0;i<n;i++)
+           {
+             if(num%3==0)
+             {
+               sum=sum+num;
+             }
+             num=num+2;
+           }
+            System.out.print(sum);
+            
+//PROGRAMMING ASSIGNMENT----4
+//Use while loop check the number is Armstrong or not.
+//store the output(1 or 0) in result variable.
+int n1=n,r;
+while(n1>0)
+{
+  r=n1%10;
+  n1=n1/10;
+  result=result+r*r*r;
+}
+if(result==n)
+{
+  System.out.print("1");
+}
+else
+{
+  System.out.print("0");
+}
+
+//PROGRAMMING ASSIGNMENT----5
+//Initialize maximum element as first element of the array.  
+   //Traverse array elements to get the current max.
+   //Store the highest mark in the variable result.
+   //Store average mark in avgMarks.
+int max=arr[0], sum=arr[0]
+;double avg;
+for(i=1;i<arr.length;i++)
+{
+  if(max<arr[i])
+     {
+       max=arr[i];
+  }
+  sum=sum+arr[i];
+}
+avg=sum/arr.length;
+System.out.print(max+"\n"+avg);
+
+        
+        
+        
+        
+                                        ------------------------------------------THANK YOU--------------------------------------------------
+            
