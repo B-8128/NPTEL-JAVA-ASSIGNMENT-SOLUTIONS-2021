@@ -1,0 +1,50 @@
+PROGRAMMING ASSIGNMENT----1
+// Creating object of class Student
+		Student student = new Student();
+		// Call 'print()' method of class Student 
+		student.print();
+		// Creating object of class School
+		School school = new School();
+		// Call 'print()' method of class School
+		school.print();
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    PROGRAMMING ASSIGNMENT----2
+    // Create an object of class Printer
+
+Printer p = new Printer();
+
+// Call 'print()' methods for desired output
+
+p.print("Hi! I am class STUDENT");
+p.print();
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    PROGRAMMING ASSIGNMENT----3
+    void studentMethod()// Define a method named 'studentMethod()' in class Question
+{
+  Question23 q = new Question23();
+  print(q);
+}
+// Call the method named 'print()' in class Question
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    PROGRAMMING ASSIGNMENT----4
+    class Answer{
+	Answer(){
+		System.out.println("You got nothing.");
+	}
+	Answer(int marks, String type){	
+        this();
+		System.out.println("You got "+marks+" for an "+ type);
+	}
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    PROGRAMMING ASSIGNMENT----5
+    //Declare variable with name 'nptel', 'space' and 'java' and proper datatype.
+String nptel,space,java;
+//Initialize the variables with proper input
+nptel="NPTEL";
+space="  ";
+java="JAVA";
+-----------------------------------------------------------------------------------THANK YOU-------------------------------------------------------------------------------------
+    
+    
