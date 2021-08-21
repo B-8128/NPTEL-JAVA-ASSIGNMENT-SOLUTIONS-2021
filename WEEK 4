@@ -1,0 +1,86 @@
+PROGRAMMING ASSIGNMENT----1
+// Import the required package(s) and/or class(es)
+import java.util.Scanner;
+import static java.lang.System.*;
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROGRAMMING ASSIGNMENT----2
+// Create an object of Calendar class. 
+
+		// Use getInstance() method to initialize the Calendar object.
+	
+		// Initialize the int variable year with the current year
+java.util.Calendar current  = java.util.Calendar.getInstance();
+year = current.get(current.YEAR);
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROGRAMMING ASSIGNMENT----3
+interface ExtraLarge{
+	static String extra = "This is extra-large";
+	 void display();
+}
+
+class Large {
+    public void Print() {
+        System.out.println("This is large");
+    }
+}
+ 
+class Medium extends Large {
+    public void Print() {
+    	  super.Print();  
+        System.out.println("This is medium");
+    }
+}
+class Small extends Medium {
+    public void Print() {
+        super.Print(); ; 
+        System.out.println("This is small");
+    }
+  }
+
+ 
+class Question43 implements ExtraLarge{
+    public static void main(String[] args) {
+        Small s = new Small();
+        s.Print();
+	  Question43 q = new Question43();
+	  q.display();
+    }
+  public void display(){
+    System.out.println(extra);
+  }
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROGRAMMING ASSIGNMENT----4
+// Call show() of First interface.
+// Call show() of Second interface.
+First.super.show();
+Second.super.show();
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROGRAMMING ASSIGNMENT----5
+// Interface ShapeX is created
+interface ShapeX {
+ public String base = "This is Shape1";
+ public void display1();
+}
+
+// Interface ShapeY is created which extends ShapeX
+interface ShapeY extends ShapeX {
+ public String base = "This is Shape2";
+ public void display2();
+}
+
+// Class ShapeG is created which implements ShapeY
+class ShapeG implements ShapeY {
+ public String base = "This is Shape3";
+ //Overriding method in ShapeX interface
+ public void display1() {
+  System.out.println("Circle: " + ShapeX.base);
+ }
+ // Override method in ShapeY interface
+  public void display2(){
+  System.out.println("Circle: " + ShapeY.base);
+ }
+}
+-----------------------------------------------------------------------------THANK YOU-----------------------------------------------------------------------------------------
