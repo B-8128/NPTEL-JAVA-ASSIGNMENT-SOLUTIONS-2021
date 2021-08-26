@@ -1,0 +1,79 @@
+PROGRAMMING ASSIGNMENT--1
+//Create a class A which implements the interface Number.
+class A implements Number
+{
+  public int findSqr(int i)
+  {
+    return i*i;
+  }
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROGRAMMING ASSIGNMENT--2
+//Create a class B, which implements the interface GCD.
+class B implements GCD
+{
+public int findGCD(int n1,int n2)
+{
+  if(n2==0)
+    return n1;
+  return findGCD(n2,n1%n2);
+}
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROGRAMMING ASSIGNMENT--3
+//Read any two values for a and b.
+
+//Get the result of a/b;
+a=input.nextInt();
+b=input.nextInt();
+try
+{
+  System.out.print(a/b);
+}
+catch(ArithmeticException e)
+{
+ System.out.print("Exception caught: Division by zero."); 
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROGRAMMING ASSIGNMENT--4
+//Define try-catch block to save user input in the array "name",if there is an exception then catch the exception otherwise print the total sum of the array.
+try
+{
+  for(int i=0;i<length;i++)
+  {
+name[i]=sc.nextInt();
+    sum+=name[i];
+  }
+System.out.print(sum);
+}
+catch(InputMismatchException e)
+{
+  System.out.print("You entered bad data.");
+}
+      
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROGRAMMING ASSIGNMENT--5
+// Put the following code under try-catch block to handle exceptions
+     try{
+	 switch (i) {
+	    case 0 : 
+
+		int zero = 0; 
+		j = 92/ zero; 
+		break;
+            case 1 : 
+		int b[ ] = null; 
+		j = b[0] ; 
+		break;
+      	    default:
+	       System.out.println("No exception");
+	}
+				
+	}
+	catch(Exception e){
+	System.out.print(e);
+	}
+	
+  
+------------------------------------------------------------------------------THANK YOU----------------------------------------------------------------------------------
