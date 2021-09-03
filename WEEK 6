@@ -1,0 +1,54 @@
+PROGRAMMING ASSIGNMENT----1
+// Write the appropriate code to extend the Thread class to complete the class Question61.
+public class Question61 extends Thread {
+  public void run(){
+    System.out.print("Thread is Running.");
+  }
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROGRAMMING ASSIGNMENT----2
+// Create main() method and appropriate statements in it
+
+public static void main(String []g)
+{
+  System.out.println("Welcome to Java Week 6 New Question.");
+  Question62 t =new Question62();
+  Thread x= new Thread(t);
+  x.setName("Main Thread");
+  x.start();
+}
+  
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROGRAMMING ASSIGNMENT----3
+// Create a class named MyThread and extend/implement the required class/interface
+
+// Define a method in MyThread class to print the output
+class MyThread extends B {
+
+	public void run(){
+		System.out.print("NPTEL Java week-6 new Assignment Q3");
+	}
+}	
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROGRAMMING ASSIGNMENT----4
+// Returns the sum of a and b. (reader)
+// Should always return an even number.
+synchronized public int sum() {
+return(a+b);
+}
+
+// Increments both a and b. (writer)
+synchronized public void inc() {
+++a;
+++b;
+}
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROGRAMMING ASSIGNMENT----5
+// Write the necessary code below...
+
+t1.setName("Week 6 Assignment Q5");
+t2.setName("Week 6 Assignment Q5 New");
+  
+--------------------------------------------------------------------------------THANK YOU--------------------------------------------------------------------------------------
