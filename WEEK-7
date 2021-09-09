@@ -1,0 +1,56 @@
+PROGRAMMING ASSIGNMENT----1
+// Write the appropriate statement(s) to import the package(s) you need in your program
+
+// Write the appropriate statement(s) to import the package(s) you need in your program
+import java.util.*;
+public class Question1{ 
+        public static void main (String[] args){
+
+//Write the appropriate code to read the 3 integer values and find their sum.
+          int a,b,c,sum;
+          Scanner s = new Scanner(System.in);
+          a = s.nextInt();
+          b = s.nextInt();
+          c = s.nextInt();
+          sum = a+b+c;
+ 
+
+//Write the appropriate code to read the 3 integer values and find their sum.
+ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ PROGRAMMING ASSIGNMENT----2
+ //Use appropriate Try..catch block to complete the code  
+  try{
+   InputStreamReader r=new InputStreamReader(System.in);  
+   BufferedReader br=new BufferedReader(r);  
+   String number=br.readLine();  
+   int x = Integer.parseInt(number);
+   System.out.print(x*x);
+}catch(Exception e)
+{
+ System.out.print("Please enter valid data");
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ PROGRAMMING ASSIGNMENT----3
+ // Complete the code to get specific indexed byte value and its corresponding char value.
+System.out.println(barr[n]);
+	System.out.print((char)barr[n]);
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  PROGRAMMING ASSIGNMENT----4
+  //Write your code here to count the number of vowels in the string "s1"
+s1 = s1.toLowerCase();
+for(int i=0;i<s1.length();i++){
+char word = s1.charAt(i);
+if(word =='a' || word =='e' || word=='i' || word=='o' || word == 'u'){
+  c=c+1;
+}
+
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROGRAMMING ASSIGNMENT----5
+//Replace the char in string "s1" with the char 'a' at index "n"  and print the modified string 
+StringBuilder str = new StringBuilder(s1);
+	    str.setCharAt(n,c);
+	    System.out.print(str);
+}
+   ----------------------------------------------------------------------------THANK YOU----------------------------------------------------------------------------------------
+	}
