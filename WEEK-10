@@ -1,0 +1,46 @@
+PROGRAMMING ASSIGNMENT----1
+// Import required packagesimport java.sql.*;
+
+import java.sql.*;
+import java.lang.*;
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROGRAMMING ASSIGNMENT----2
+// Open a connection
+              conn = DriverManager.getConnection(DB_URL);
+              System.out.print(conn.isValid(1));
+		
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROGRAMMING ASSIGNMENT----3
+import java.sql.*;  // All sql classes are imported
+import java.lang.*; // Semicolon is added
+import java.util.Scanner;
+public class Question103 {
+    public static void main(String args[]) {
+        try {
+              Connection conn = null;
+              Statement stmt = null;
+              String DB_URL = "jdbc:sqlite:/tempfs/db";
+              System.setProperty("org.sqlite.tmpdir", "/tempfs");
+              // Connection object is created
+              conn = DriverManager.getConnection(DB_URL);
+              conn.close();
+              System.out.print(conn.isClosed());
+       }
+       catch(Exception e){ System.out.println(e);}  
+    }
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROGRAMMING ASSIGNMENT----4
+// The statement containing SQL command to create table "players"
+String CREATE_TABLE_SQL="CREATE TABLE players (UID INT, First_Name VARCHAR(45), Last_Name VARCHAR(45), Age INT);";
+// Execute the statement containing SQL command
+stmt.executeUpdate(CREATE_TABLE_SQL);
+    
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROGRAMMING ASSIGNMENT----5
+// Write the SQL command to rename a table
+String alter="ALTER TABLE players RENAME TO sports;";
+
+// Execute the SQL command
+stmt.executeUpdate(alter);
+-----------------------------------------------------------------------------------THANK YOU-------------------------------------------------------------------------------------
